@@ -84,4 +84,4 @@ let citrus = fruits.slice(2, 4)
 
 //first number is the starting index, which we include
 
-//second number is the index we stop BEFORE. Does not include.
+//second number is the index we stop BEFORE. Does not include.b gvcfd``
