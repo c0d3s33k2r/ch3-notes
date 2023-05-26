@@ -89,7 +89,7 @@ function displayChar(char){
 
   console.log(`Name: ${char.name}`);
 
-  console.log(``)``
+  console.log(``)`f`
 
   console.log(`STR: ${char.strength}`);
 

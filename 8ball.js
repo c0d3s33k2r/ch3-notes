@@ -1,8 +1,10 @@
-const readLine=require('readline-sync');
-let words=[];
+const readLine = require('readline-sync');
+let answers=['yes', 'no', 'maybe', 'never', 'always'];
 
-let word=readLine.question("whats your question");
-words.push(word);
-let answers=['of course','not quite','it could be'];
+console.log("Welcome to my magic 8 ball where i will answer all your questions!");
 
-let random
+readLine.question("Ask a question: ");
+
+let randomNum = Math.floor(Math.random()*answers.length);
+let answer = answers[randomNum];
+console.log(answer);
