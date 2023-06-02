@@ -1,10 +1,9 @@
-const readLine = require('readline-sync');
-let answers=['yes', 'no', 'maybe', 'never', 'always'];
+const readLine = require ('readline-sync');
+let answerList = ['The wizards scream yes!', 'Never in a million years!', 'maybe'];
 
-console.log("Welcome to my magic 8 ball where i will answer all your questions!");
+let prompt = readLine.question("This code is the mystical code from wizards of the past");
+let prompt2 = readLine.question("What are you confused about?: ");
 
-readLine.question("Ask a question: ");
-
-let randomNum = Math.floor(Math.random()*answers.length);
-let answer = answers[randomNum];
-console.log(answer);
+let randomNum = Math.floor(Math.random()*answerList.length);
+let randomAnswer = answerList[randomNum];
+console.log(randomAnswer);
